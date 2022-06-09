@@ -60,7 +60,6 @@ nav .icon{
     background-image: url(imagenes/banner.jpg);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
     margin: 0;
 }
 
@@ -226,7 +225,6 @@ nav .icon{
     background-image: url(imagenes/banner2.jpeg);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
     height: 600px;
 }
 
@@ -277,8 +275,8 @@ footer h5{
 }
 
 .redes img{
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     padding: 20px ;
     transition: 0.4s;
 }
@@ -415,5 +413,14 @@ footer h5{
     }
     .s1 h3{
         font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 401px){
+    .s2{
+        height: 700px;
+    }
+    .marcasContainer{
+        flex-direction: column;
     }
 }
