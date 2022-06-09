@@ -34,11 +34,18 @@ nav ul{
 nav ul li{
     padding: 10px;
     list-style: none;
+    transition: 0.4s;
 }
 
 nav ul li a{
     text-decoration: none;
     color: black;
+    font-size: 22px;
+    
+}
+
+nav ul li:hover{
+    transform: translateY(-5px);
 }
 
 nav .icon{
@@ -171,6 +178,12 @@ nav .icon{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+
+.s4 h3{
+    font-size: 40px;
+    font-weight: 600;
 }
 
 .s4Container{
@@ -313,12 +326,12 @@ footer h5{
 }
 
 @media screen and (max-width: 667px){
-    .s1 h3{
+    .s1 h3,.s4 h3{
         font-size: 20px;
     }
     }
 
-@media screen and (max-width: 660px){
+@media screen and (max-width: 755px){
 
     .topNav{
         display:none;
